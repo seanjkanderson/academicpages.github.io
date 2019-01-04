@@ -15,5 +15,26 @@ all the nodes in the system to the voltage reference. The dynamics for this work
 power-frequency dynamics in order to focus the work on restoring the location-varying nature of voltage. The scheme is
 demonstrated to be stable on a Simulink simulator designed for this work.
 
+The goals addressed in this work:
+* Design a distributed controller to restore the voltage in a network to its nominal value in finite-time.
+* Restore the local voltage synchronously with its neighbors.
+* Track the reference without offset.
+* Keep the voltage within the operating bounds.
+
+Two simulators were used to test the distributed non-linear model predictive control. The first method used just 
+Simulink and used perfect dynamics with Gaussian noise. The second framework was built using PLECS sitting on Simulink. 
+This model lacked fidelity in areas that the first method performed well in but this verified that the voltage 
+restoration could be performed independently of the frequency restoration. 
+
+<br/><img src='/images/simulink_plant.jpg'>
+The first simulator (Simulink), with subsystems to reduce clutter. The architecture is explicitly distributed.
+
 <br/><img src='/images/plecs_model.jpg'>
+The second simulator (PLECS on Simulink), lightly adapted from a PLECS library model.
+
+<br/><img src='/images/simulink_integral_action.jpg'>
+Constant disturbance rejection with random walk estimator
+
+<br/><img src='/images/simulink_integral_action_noisy.jpg'>
+Noisy disturbance rejection with random walk estimator
 
