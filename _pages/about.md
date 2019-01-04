@@ -9,7 +9,7 @@ redirect_from:
 
 Growing up...
 ======
-/images/Wonder Valley.20by30.jpg
+![Alt text](/images/Wonder Valley.20by30.jpg)
 I hail from the small town of Nevada City, California, in the foothills of the Sierra Nevada. There, I learned to love 
 the natural world, understand how humans change the face of the planet, and explore the unknown. 
 
