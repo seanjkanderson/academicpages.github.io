@@ -15,13 +15,19 @@ all the nodes in the system to the voltage reference. The dynamics for this work
 power-frequency dynamics in order to focus the work on restoring the location-varying nature of voltage. The scheme is
 demonstrated to be stable on a Simulink simulator designed for this work.
 
-The goals addressed in this work:
+_The methods used in this work_:
+* Distributed unscented Kalman filter (UKF)
+* Distributed nonlinear model predictive control (DNMPC)
+* Tracking MPC with analytical solution to integral action for nonlinear dynamics
+
+_The goals addressed in this work_:
 * Design a distributed controller to restore the voltage in a network to its nominal value in finite-time.
 * Restore the local voltage synchronously with its neighbors.
 * Track the reference without offset.
 * Keep the voltage within the operating bounds.
 
-Two simulators were used to test the distributed non-linear model predictive control. The first method used just 
+
+Two simulators were used to test the distributed nonlinear model predictive control. The first method used just 
 Simulink and used perfect dynamics with Gaussian noise. The second framework was built using PLECS sitting on Simulink. 
 This model lacked fidelity in areas that the first method performed well in but this verified that the voltage 
 restoration could be performed independently of the frequency restoration. 
