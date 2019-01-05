@@ -1,11 +1,13 @@
 ---
-title: "Distributed Secondary Control of Inverter-based Microgrid"
-excerpt: "A DNMPC method for restoring voltage in an autonomous microgrid<br/><img src='/images/simulink_plant.jpg'>"
+title: "Distributed Nonlinear Model Predictive Control (DNMPC) for Autonomous Droop-Controlled Inverter-Based Microgrids"
+excerpt: "A DNMPC tracking problem with nonlinear state estimation<br/><img src='/images/simulink_plant.jpg'>"
 collection: portfolio
 ---
 For my undergraduate capstone, I chose to work on an independent project supervised by Patricia Hidalgo-Gonzalez
 (PhD Candidate EECS/Energy and Resources Group University of California Berkeley). The result was this project on
 secondary control of voltage in a microgrid setting. Here I include some of the basics of it.
+
+<br>
 
 __Abstract__:
 In this paper, a voltage restoration scheme for droop-controlled inverter-based islanded microgrids is proposed.
@@ -14,6 +16,8 @@ with its immediate neighbors. The DMPC aims to solve a reference tracking proble
 all the nodes in the system to the voltage reference. The dynamics for this work are taken to be decoupled from the real
 power-frequency dynamics in order to focus the work on restoring the location-varying nature of voltage. The scheme is
 demonstrated to be stable on a Simulink simulator designed for this work.
+
+<br>
 
 <b>The methods used in this work:</b>
 <ul>
@@ -31,7 +35,7 @@ demonstrated to be stable on a Simulink simulator designed for this work.
     <li>Keep the voltage within the operating bounds.</li>
 </ul>
 
-
+<br>
 
 Two simulators were used to test the distributed nonlinear model predictive control. The first method used just 
 Simulink and used perfect dynamics with Gaussian noise. The second framework was built using PLECS sitting on Simulink. 
