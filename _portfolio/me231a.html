@@ -1,0 +1,32 @@
+---
+title: "Set-Based Adaptive Safety Control"
+excerpt: "Defining a safe region of operation based on reachability <br/><img src='/images/ev_fsm.png'
+                                                                              width="500" height="300">"
+collection: portfolio
+---
+
+<br>
+
+<b>
+    Abstract:
+</b>
+
+<p>
+Feedback Control Systems, ME C134/EE C128, is an introductory control systems course at UC Berkeley.
+Over the entire course, students gain practical experience by implementing various control schemes and designing
+observers in an effort to ultimately stabilize an inverted pendulum on a linear track.  Throughout this learning
+process, frequent mishaps occur where improper controller implementation damages hardware.  A simple example concerns
+the student's controller driving the cart into the wall at full speed.  To offset the financial burden placed on the
+university in light of these mishaps, we designed a streamlined adaptive control system using set theory.  We utilized
+lab-provided plant models to generate an $O_\infty$ set, attenuated the vertices to generate a safe, sub-region
+$S_\infty$, and attenuated in such a manner as to ensure an evolution of the vertices of $S_\infty$ remained within
+$O_\infty$ for at least one time step.  Afterwards, we constructed a single Simulink block for students to easily
+implement within their own control schemes.  This block consistently checks to see whether the system state remains
+within $S_\infty$.  If that check is true, our controller does nothing.  If it returns false, our controller takes over,
+drives the system to a prescribed safe-point, and shuts the system down.  Overall, our process assumes perfect plant
+modelling, though our insistence on an evolution of $S_\infty$ remaining within $O_\infty$ resulted in considerable
+robustness to disturbances.  In the end we were successful in implementing this real-time adaptive system and will
+provide it to the department for use in future labs.
+</p>
+
+<iframe src="https://drive.google.com/file/d/1kPw5FTVs3hOcy_yhZ8gXrCNN5lqBWi0v/preview" width="640" height="480"></iframe>
