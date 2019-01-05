@@ -3,7 +3,7 @@ title: "Distributed Secondary Control of Inverter-based Microgrid"
 excerpt: "A DNMPC method for restoring voltage in an autonomous microgrid<br/><img src='/images/simulink_plant.jpg'>"
 collection: portfolio
 ---
-For my undergraduate capstone, I chose to work on an independent project supervised by Patricia-Hidalgo Gonzalez
+For my undergraduate capstone, I chose to work on an independent project supervised by Patricia Hidalgo-Gonzalez
 (PhD Candidate EECS/Energy and Resources Group University of California Berkeley). The result was this project on
 secondary control of voltage in a microgrid setting. Here I include some of the basics of it.
 
@@ -15,16 +15,22 @@ all the nodes in the system to the voltage reference. The dynamics for this work
 power-frequency dynamics in order to focus the work on restoring the location-varying nature of voltage. The scheme is
 demonstrated to be stable on a Simulink simulator designed for this work.
 
-<b>The methods used in this work</b>
-* Distributed unscented Kalman filter (UKF)
-* Distributed nonlinear model predictive control (DNMPC)
-* Tracking MPC with analytical solution to integral action for nonlinear dynamics
+<b>The methods used in this work:</b>
+<ul>
+    <li>Distributed unscented Kalman filter (UKF)</li>
+    <li>Distributed nonlinear model predictive control (DNMPC)</li>
+    <li>Tracking MPC with analytical solution to integral action for nonlinear dynamics</li>
+</ul>
 
-<b>The goals addressed in this work</b>:
-* Design a distributed controller to restore the voltage in a network to its nominal value in finite-time.
-* Restore the local voltage synchronously with its neighbors.
-* Track the reference without offset.
-* Keep the voltage within the operating bounds.
+
+<b>The goals addressed in this work:</b>
+<ul>
+    <li>Design a distributed controller to restore the voltage in a network to its nominal value in finite-time.</li>
+    <li>Restore the local voltage synchronously with its neighbors.</li>
+    <li>Track the reference without offset.</li>
+    <li>Keep the voltage within the operating bounds.</li>
+</ul>
+
 
 
 Two simulators were used to test the distributed nonlinear model predictive control. The first method used just 
