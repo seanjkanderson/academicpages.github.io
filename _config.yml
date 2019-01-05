@@ -200,6 +200,7 @@ defaults:
       comments: true
       share: true
       related: true
+      wide: true
   # _pages
   - scope:
       path: ""
@@ -310,3 +311,4 @@ compress_html:
 
 # Enable search
 search: true
+#search_provider: algolia
