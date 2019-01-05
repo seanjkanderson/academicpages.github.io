@@ -15,12 +15,12 @@ all the nodes in the system to the voltage reference. The dynamics for this work
 power-frequency dynamics in order to focus the work on restoring the location-varying nature of voltage. The scheme is
 demonstrated to be stable on a Simulink simulator designed for this work.
 
-_The methods used in this work_:
+<b>The methods used in this work</b>
 * Distributed unscented Kalman filter (UKF)
 * Distributed nonlinear model predictive control (DNMPC)
 * Tracking MPC with analytical solution to integral action for nonlinear dynamics
 
-_The goals addressed in this work_:
+<b>The goals addressed in this work</b>:
 * Design a distributed controller to restore the voltage in a network to its nominal value in finite-time.
 * Restore the local voltage synchronously with its neighbors.
 * Track the reference without offset.
@@ -30,17 +30,27 @@ _The goals addressed in this work_:
 Two simulators were used to test the distributed nonlinear model predictive control. The first method used just 
 Simulink and used perfect dynamics with Gaussian noise. The second framework was built using PLECS sitting on Simulink. 
 This model lacked fidelity in areas that the first method performed well in but this verified that the voltage 
-restoration could be performed independently of the frequency restoration. 
+restoration could be performed independently of the frequency restoration.
 
-<br/><img src='/images/simulink_plant.jpg'>
-The first simulator (Simulink), with subsystems to reduce clutter. The architecture is explicitly distributed.
+<figure>
+<img src="/images/simulink_plant.jpg" alt="Simulink plant">
+<figcaption>The first simulator (Simulink), with subsystems to reduce clutter.
+    The architecture is explicitly distributed.</figcaption>
+</figure>
 
-<br/><img src='/images/plecs_model.jpg'>
-The second simulator (PLECS on Simulink), lightly adapted from a PLECS library model.
+<figure>
+<img src="/images/plecs_model.jpg" alt="PLECS Model">
+<figcaption>The second simulator (PLECS on Simulink), lightly adapted from a PLECS library model.</figcaption>
+</figure>
 
-<br/><img src='/images/simulink_integral_action.jpg'>
-Constant disturbance rejection with random walk estimator
+<figure>
+<img src="/images/simulink_integral_action.jpg" alt="Integral action">
+<figcaption>Constant disturbance rejection with random walk estimator.</figcaption>
+</figure>
 
-<br/><img src='/images/simulink_integral_action_noisy.jpg'>
-Noisy disturbance rejection with random walk estimator
+<figure>
+<img src="/images/simulink_integral_action_noisy.jpg" alt="Integral action noisy">
+<figcaption>Noisy disturbance rejection with random walk estimator.</figcaption>
+</figure>
+
 
