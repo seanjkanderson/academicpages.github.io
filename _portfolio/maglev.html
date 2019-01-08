@@ -1,0 +1,36 @@
+---
+title: "Magnetic Levitation"
+excerpt: "Analog control of steel bearing with PID (Op amp) <br/><img src='/images/maglev.png' >"
+collection: portfolio
+---
+For the course ME C134/EECS C128, one of the labs we did was levitating a steel bearing with analog control (i.e. no
+computers). The goal was to levitate a bearing statically using an op amp, which is by definition, a PID controller.
+The respective gains can be tuned, which was the essence of the lab.
+
+<br>
+
+<b>
+    Summary:
+</b>
+
+<p>In this lab, my lab partners, Vineet Nair and Hadi Zhang, aim to design an analog controller (using MATLAB) for the
+    magnetic levitation system (linearized model) whose parameters we identified, and then implement this
+    physically using circuit elements and hardware. Our design goal is an analog compensator such that the open loop
+    system’s DC gain (the product of compensator gain as well as the plant) is 2 A/m, controller pole/zero ratio is
+    roughly 20 and the phase margin is approximately 60 degrees.
+</p>
+
+<br>
+
+<p>
+    The controller for this lab utilized an op amp for the analog control. In particular the design phase allowed for
+    choosing the location of the poles of the PID controller. The poles initially selected/designed for did not work for
+    the system. Interestingly, I would later learn about H-infinity loopshaping from Andy Packard and understand the
+    lack of robustness in the classical control methods taught in EECS C128.
+</p>
+
+<embed src="maglev.mp4" autostart="false" />
+
+
+
+
