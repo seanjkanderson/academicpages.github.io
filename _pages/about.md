@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 header:
     overlay_image: /images/wonder_valley.jpg
-    overlay_filter: 0.9
     caption: Yosemite Valley © Sean Anderson
 ---
 I graduated with a B.S. in energy engineering from U.C. Berkeley. I specialized in controls engineering but also enjoy
