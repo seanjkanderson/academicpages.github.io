@@ -8,7 +8,7 @@ redirect_from:
 header:
     overlay_image: /images/website_header.jpg
     overlay_filter: 0.5
-    caption: Photo Credit: Sean Anderson
+    caption: Yosemite Valley © Sean Anderson
     actions:
     - label: "More Info"
       url: "https://unsplash.com"
