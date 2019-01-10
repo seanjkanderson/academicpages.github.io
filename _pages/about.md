@@ -6,8 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 header:
-    overlay_image: /images/Wonder Valley.20by30.jpg
-    overlay_filter: 0.5
+    overlay_image: /images/Website Header.jpg
+    overlay_filter: 0.9
     caption: Yosemite Valley © Sean Anderson
 ---
 I graduated with a B.S. in energy engineering from U.C. Berkeley. I specialized in controls engineering but also enjoy
@@ -26,8 +26,9 @@ the natural world, understand how humans change the face of the planet, and expl
 
 ...still growing up
 ------
-I just got back from a bikepacking trip in China and then living on the road in the western United States. I like to
-nerd out and play big in the outdoors. I'm back in Berkeley, California, working at a small startup, New Sun Road.
+I recently got back from a bikepacking trip in China in June and then living on the road in the western United States 
+for a few months. I like to nerd out and play big in the outdoors. I'm back in Berkeley, California, working at a small 
+startup, New Sun Road.
 
 Reading
 ------
