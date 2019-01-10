@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-    overlay_image: /images/Website Header.jpg
+    overlay_image: /images/wonder_valley.jpg
     overlay_filter: 0.9
     caption: Yosemite Valley © Sean Anderson
 ---
@@ -17,7 +17,7 @@ a blank spot on the far reaches of a map, or the people around me. My current in
 * Portfolio optimization
 * Numerical solvers
 
-![picture alt](/images/Wonder Valley.20by30.jpg)
+![picture alt](/images/wonder_valley.jpg)
 
 Growing up...
 ------
