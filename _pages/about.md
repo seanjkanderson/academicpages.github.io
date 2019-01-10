@@ -9,6 +9,9 @@ header:
     overlay_image: /images/wonder_valley.jpg
     overlay_filter: 0.5
     caption: Yosemite Valley © Sean Anderson
+    actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 ---
 I graduated with a B.S. in energy engineering from U.C. Berkeley. I specialized in controls engineering but also enjoy
 heat transfer and fluid mechanics. I'm always trying to learn more whether it's about interior point methods,
