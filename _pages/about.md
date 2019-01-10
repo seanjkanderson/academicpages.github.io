@@ -5,6 +5,10 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+header:
+    overlay_image: /images/Wonder Valley/20by30.jpg
+    overlay_filter: 0.5
+    caption: Yosemite Valley
 ---
 I graduated with a B.S. in energy engineering from U.C. Berkeley. I specialized in controls engineering but also enjoy
 heat transfer and fluid mechanics. I'm always trying to learn more whether it's about interior point methods,
