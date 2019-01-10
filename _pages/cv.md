@@ -114,26 +114,3 @@ Awards and Scholarship
 * Nevada City Elks Feinstein Memorial Scholarship Award (2014)
 * California-Hawaii Elks 2nd Place District Scholarship Winner and First Place Association Scholarship Awards (2014)
 * Tech Test Award (2014)
-
-
-# Publications
-# ======
-# <ul>{% for post in site.publications %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
-  
-# Talks
-# ======
-#  <ul>{% for post in site.talks %}
-#    {% include archive-single-talk-cv.html %}
-#  {% endfor %}</ul>
-  
-# Teaching
-# ======
-#  <ul>{% for post in site.teaching %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
-  
-# Service and leadership
-# ======
-# * Currently signed in to 43 different slack teams
