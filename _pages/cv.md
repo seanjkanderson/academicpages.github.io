@@ -22,11 +22,13 @@ Work experience
     * Working on optimizing generator runs for solar diesel hybrid systems.
 
 * New Sun Road, Product Development Intern (2017-2018)
-    * Wrote scheduling algorithm with time-of-use rates for energy-constrained systems. * Worked on modeling lead-acid batteries for hybrid system optimization.
+    * Wrote scheduling algorithm with time-of-use rates for energy-constrained systems. 
+    * Worked on modeling lead-acid batteries for hybrid system optimization.
     * Worked on modeling lead-acid batteries for hybrid system optimization.
     * Designed iterative optimization scheme for hybrid systems.
 
-* Lawrence Berkeley National Lab- Grid Integration Group, Data Analyst (2016) * Analyzed data for the Los Angeles Air Force Base vehicle-to-grid project.
+* Lawrence Berkeley National Lab- Grid Integration Group, Data Analyst (2016) 
+* Analyzed data for the Los Angeles Air Force Base vehicle-to-grid project.
     * Synthesized inputs for the system controls.
     * Worked with MATLAB, MySQL, and Python.
     
@@ -38,7 +40,8 @@ Work experience
 Projects
 ======
 * Distributed model predictive control for secondary control in droop-based autonomous microgrids (2018-present)
-    * Used model predictive control for voltage restoration with an unscented Kalman filter to estimate disturbances and to reduce communciation requirements between grid-forming inverters.
+    * Used model predictive control for voltage restoration with an unscented Kalman filter to estimate disturbances and
+     to reduce communciation requirements between grid-forming inverters.
     * Created simulation environments in Simulink and PLECS sitting on Simulink.
     
 * Electric Vehicle Trajectory Optimization (2018)
@@ -51,17 +54,21 @@ Projects
     * Created Simulink block to efficiently implement this background controller in undergraduate lab.
 
 * RecoverE- controllable heat exchanger, Best Hardware Award and People’s Choice Award (2017)
-    * Used transducers, Arduino, Python, and basic JavaScript to implement proof-of-concept controllable heat exchanger for drain water heat recovery.
-    * Project focused on exemplifying the key tenets of a cyber-physical system using hardware, sensors, computation, and visualization.
+    * Used transducers, Arduino, Python, and basic JavaScript to implement proof-of-concept controllable heat exchanger 
+    for drain water heat recovery.
+    * Project focused on exemplifying the key tenets of a cyber-physical system using hardware, sensors, computation,
+    and visualization.
   
 Team Experience
 ======
-* Cal Renewable and Adaptable Energy Research Group (2016-2018), Lead Undergraduate Coordinator * Worked on user-scheduling optimization.
+* Cal Renewable and Adaptable Energy Research Group (2016-2018), Lead Undergraduate Coordinator 
+    * Worked on user-scheduling optimization.
     * Assisted in design and construction of microgrid test bed.
     * Analyzed microgrid data in order to understand system behavior.
     
 * Big Ideas 2015 (2014-2015) (Team Equa)
-    * Initiated the idea for project and led a team to draft a proposal for bringing the project to realization. * 3rd place sustainable and alternative energy category, Big Ideas (intercollegiate competition).
+    * Initiated the idea for project and led a team to draft a proposal for bringing the project to realization. 
+    * 3rd place sustainable and alternative energy category, Big Ideas (intercollegiate competition).
     * Partial project funding.
     
 * Habitat for Humanity
@@ -107,7 +114,8 @@ Relevant Coursework
 
 Awards and Scholarship
 =====
-* Laura Wilcox-South Yuba River Citizen’s League Scholarship (2014-2018) * Gold Country Cal Alumni Association Scholarship (2014-2015)
+* Laura Wilcox-South Yuba River Citizen’s League Scholarship (2014-2018) 
+* Gold Country Cal Alumni Association Scholarship (2014-2015)
 * Cal Alumni Association Leadership Award (2014-2015)
 * Greba Terrell Scholarship Award (2014)
 * Nevada Union California Scholarship Federation Scholarship (2014)
