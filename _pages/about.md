@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 header:
-    overlay_image: /images/wonder_valley.jpg
+    overlay_image: /images/website_header.jpg
     overlay_filter: 0.5
-    caption: Yosemite Valley © Sean Anderson
+    caption: Photo Credit: Sean Anderson
     actions:
     - label: "More Info"
       url: "https://unsplash.com"
