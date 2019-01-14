@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 header:
     overlay_image: WS-3.jpg
-    overlay_filter: 0.5
+    overlay_filter: 0.2
     caption: South Yuba River © Sean Anderson
 ---
 I graduated with a B.S. in energy engineering from U.C. Berkeley. I specialized in controls engineering but also enjoy
