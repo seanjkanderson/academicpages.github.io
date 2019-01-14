@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "How do I pass the time?"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,6 +10,8 @@ header:
     overlay_filter: 0.2
     caption: South Yuba River © Sean Anderson
 ---
+How do I pass the time?
+------
 I graduated with a B.S. in energy engineering from U.C. Berkeley. I specialized in controls engineering but also enjoy
 heat transfer and fluid mechanics. I'm always trying to learn more whether it's about interior point methods,
 a blank spot on the far reaches of a map, or the people around me. My current interests are:
