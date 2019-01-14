@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-    overlay_image: test2.jpg
+    overlay_image: wonder_valley.jpg
     overlay_filter: 0.5
     caption: Yosemite Valley © Sean Anderson
     actions:
