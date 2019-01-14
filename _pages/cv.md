@@ -71,11 +71,11 @@ Team Experience
     * 3rd place sustainable and alternative energy category, Big Ideas (intercollegiate competition).
     * Partial project funding.
     
-* Habitat for Humanity
+* Habitat for Humanity (2011-2014)
     * Volunteered on Wednesdays at the construction site where I learned basic carpentry and other 
     construction skills. 
     * Helped to lay foundations, roof homes, assemble scaffolding, install insulation, and fix plumbing. 
-    * eveloped good relationships with other workers and future homeowners.
+    * Developed good relationships with other workers and future homeowners.
     
 Skills
 ======
