@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-    overlay_image: wonder_valley.jpg
+    overlay_image: WS-3.jpg
     overlay_filter: 0.5
     caption: South Yuba River © Sean Anderson
 ---
