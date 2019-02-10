@@ -37,7 +37,7 @@ Reading
 __Memorable books__:
 * The Black Swan - Nassim Nicholas Taleb
 * The Mysterious Island - Jules Verne
-* A Silent Spring - Rachel Carson
+* Silent Spring - Rachel Carson
 * The Monkey Wrench Gang - Edward Abbey
 * Beyond the Mountain - Steve House
 
