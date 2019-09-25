@@ -14,12 +14,16 @@ Education
 * B.S. in Energy Engineering, University of California Berkeley, 2018
 * Diploma, Nevada Union High School, 2014
 
+Publications
+======
+1.	S. Anderson, P. Hidalgo-Gonzalez, R. Dobbe, C. Tomlin, “Distributed Model Predictive Control for Autonomous Droop-Controlled Inverter-Based Microgrids,” IEEE Conference on Decision and Control, 2019
+
 Work experience
 ======
 * New Sun Road, Junior Controls Engineer (2018-Present)
-    * Developed day-ahead hourly solar power forecasting model.
-    * Performed firmware quality assurance testing.
-    * Working on optimizing generator runs for solar diesel hybrid systems.
+    * Developed generator dispatch optimization for off-grid solar diesel hybrid system. 
+    * Wrote Python stack for deployment of generator dispatch problem in real-time.
+    * Designed and implemented machine learning algorithms for time series data.
 
 * New Sun Road, Product Development Intern (2017-2018)
     * Wrote scheduling algorithm with time-of-use rates for energy-constrained systems. 
@@ -39,6 +43,11 @@ Work experience
     
 Projects
 ======
+
+* Autonomous quadcopter with active estimation (2019-present)
+    * Built a quadcopter from base components with an onboard Odroid and IMU based on design from RPG Lab at ETH Zurich.
+    * Next stage is enabling visual-inertial odometry for estimation. 
+
 * Distributed model predictive control for secondary control in droop-based autonomous microgrids (2018-present)
     * Used model predictive control for voltage restoration with an unscented Kalman filter to estimate disturbances and
      to reduce communciation requirements between grid-forming inverters.
