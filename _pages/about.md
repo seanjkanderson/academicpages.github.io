@@ -14,10 +14,11 @@ How do I pass the time?
 ------
 I graduated with a B.S. in energy engineering from U.C. Berkeley. I specialized in controls engineering but also enjoy
 heat transfer and fluid mechanics. I'm always trying to learn more whether it's about differential dynamic programming,
-a blank spot on the far reaches of a map, or the people around me. My current interests are:
+a blank spot on the far reaches of a map, or the people around me. My current interests include:
 * Stochastic optimization and control
-* Portfolio optimization
+* Quantitative finance
 * iLQR and DDP
+* Active estimation
 
 ![picture alt](/images/wonder_valley.jpg)
 
@@ -28,8 +29,8 @@ the natural world, understand how humans change the face of the planet, and expl
 
 ...still growing up
 ------
-I recently got back from a bikepacking trip in China in June and then living on the road in the western United States 
-for a few months. I like to nerd out and play big in the outdoors. I'm back in Berkeley, California, working at a small 
+I finished my B.S. in May 2018. The day after graduation I went on a bikepacking trip in China. When I got back I lived on the road in the western United States 
+for a few months. I like to nerd out and play big in the outdoors. Now, I'm back in Berkeley, California, working at a
 startup, New Sun Road.
 
 Reading
@@ -42,9 +43,8 @@ __Memorable books__:
 * Beyond the Mountain - Steve House
 
 __Current Books__:
-* The Signal and the Noise - Nate Silver
-* The End of Faith - Sam Harris
-* The Calling: A life rocked by mountains - Barry Blanchard (reread)
+* The Boys in the Boat - Daniel James Brown
+* Life of a Street Addict - Jim Cramer
 
 What's next?
 ------
